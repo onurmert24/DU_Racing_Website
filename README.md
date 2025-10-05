@@ -1,10 +1,10 @@
 # Düzce Üniversitesi Motor Sporları Website
 
-MIT FSAE sitesi esinlenerek tasarlanmış, Düzce Üniversitesi Motor Sporları topluluğu için minimalist ve modern web sitesi.
+Düzce Üniversitesi Motor Sporları topluluğu için tasarlanmış minimalist ve modern web sitesi.
 
 ## Tasarım Özellikleri
 
-- **MIT FSAE Tarzı**: Minimalist, büyük tipografi, siyah-beyaz ağırlıklı tasarım
+- **Minimalist Tasarım**: Büyük tipografi, siyah-beyaz ağırlıklı tasarım
 - **Büyük Başlıklar**: Etkileyici hero section ve büyük fontlar
 - **Temiz Layout**: Sade ve profesyonel görünüm
 - **Responsive**: Tüm cihazlarda mükemmel görünüm
@@ -68,7 +68,7 @@ npm run dev
 
 ```
 DU_Racing_website/
-├── index.html              # Ana sayfa (MIT FSAE tarzında)
+├── index.html              # Ana sayfa
 ├── css/
 │   └── style.css          # Minimalist stil dosyası
 ├── js/
@@ -94,7 +94,7 @@ DU_Racing_website/
 
 ## Özelleştirme
 
-### Tasarım Renkleri (MIT Tarzı)
+### Tasarım Renkleri
 - Arka Plan: #fff (Beyaz)
 - Ana Metin: #000 (Siyah)
 - İkincil Metin: #666 (Gri)
@@ -133,7 +133,7 @@ DU_Racing_website/
 
 ## Lisans
 
-Bu proje MIT lisansı altında lisanslanmıştır. Detaylar için LICENSE dosyasına bakın.
+Bu proje Düzce Üniversitesi Motor Sporları topluluğuna aittir.
 
 ## İletişim
 
