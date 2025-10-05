@@ -1,0 +1,22 @@
+{
+  "name": "du-racing-website",
+  "version": "1.0.0",
+  "description": "Düzce University Motor Sports Club Website",
+  "main": "index.html",
+  "scripts": {
+    "dev": "live-server --port=3000 --open=index.html",
+    "build": "echo 'Build complete'",
+    "start": "live-server --port=3000 --open=index.html"
+  },
+  "keywords": [
+    "motorsports",
+    "university",
+    "racing",
+    "fsae"
+  ],
+  "author": "Düzce University Motor Sports Club",
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}
