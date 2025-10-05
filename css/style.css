@@ -287,6 +287,21 @@ h3 {
     padding: 0 10px;
 }
 
+.nav-logo a {
+    display: block;
+    text-decoration: none;
+}
+
+.nav-logo-img {
+    height: 40px;
+    width: auto;
+    transition: opacity 0.3s ease;
+}
+
+.nav-logo a:hover .nav-logo-img {
+    opacity: 0.8;
+}
+
 .logo-text {
     font-family: 'JetBrains Mono', monospace;
     font-weight: 700;
@@ -634,7 +649,6 @@ body.menu-open {
     position: relative;
     width: 100%;
     padding: 80px 0;
-    border-top: 1px solid #333;
     border-bottom: 1px solid #333;
 }
 
@@ -810,6 +824,12 @@ body.menu-open {
     margin-right: 5rem;
     color: #333;
     text-transform: uppercase;
+    transition: color 0.5s ease;
+    cursor: pointer;
+}
+
+.footer-marquee-content span:hover {
+    color: #28cbd4;
 }
 
 @keyframes marquee {
