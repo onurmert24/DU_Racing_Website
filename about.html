@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hakkımızda - Düzce Üniversitesi Motor Sporları</title>
+    <title>Hakkımızda - DU Racing</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -34,107 +34,91 @@
     </div>
 
     <!-- Hero Section -->
-    <section class="page-hero">
+    <section class="about-hero">
         <div class="container">
-            <h1 class="page-title">Hızlı arabalar yapıyoruz.<br>Her formülün ötesinde.</h1>
+            <h1 class="about-hero-title">
+                <span class="title-line">BİZ</span>
+                <span class="title-line">KİMİZ</span>
+            </h1>
+            <div class="about-hero-buttons">
+                <a href="team.html" class="about-hero-btn">TAKIMLA TANIŞ</a>
+                <a href="https://docs.google.com/forms" class="about-hero-btn">TAKIMA KATIL</a>
+            </div>
         </div>
     </section>
 
-    <!-- About Content -->
-    <section class="about-content">
+    <!-- Image Gallery Placeholder -->
+    <section class="about-gallery-placeholder">
         <div class="container">
-            <div class="content-grid">
-                <div class="content-text">
-                    <h2>Misyonumuz</h2>
-                    <p>Düzce Üniversitesi Motor Sporları topluluğu olarak, öğrencilerimize otomotiv mühendisliği alanında pratik deneyim kazandırarak geleceğin mühendislerini yetiştiriyoruz. Formula Student yarışlarında ülkemizi başarıyla temsil etmeyi ve her yıl daha ileri teknolojiler kullanarak kendimizi geliştirmeyi hedefliyoruz.</p>
-                    
-                    <h2>Vizyonumuz</h2>
-                    <p>Türkiye'nin en başarılı motor sporları topluluklarından biri olmak. Uluslararası Formula Student yarışlarında sürekli gelişen performansımızla tanınmak ve otomotiv endüstrisine nitelikli mühendisler kazandırmak.</p>
-                    
-                    <h2>Değerlerimiz</h2>
-                    <ul class="values-list">
-                        <li><strong>Mükemmellik:</strong> Her projede en iyiyi hedefliyoruz</li>
-                        <li><strong>İnovasyön:</strong> Yeni teknolojileri araştırıp uyguluyoruz</li>
-                        <li><strong>Takım Çalışması:</strong> Birlikte daha güçlü olduğumuza inanıyoruz</li>
-                        <li><strong>Sürdürülebilirlik:</strong> Çevre dostu teknolojiler geliştiriyoruz</li>
-                        <li><strong>Öğrenme:</strong> Sürekli gelişim ve öğrenmeyi teşvik ediyoruz</li>
-                    </ul>
+            <div class="gallery-space">
+                <!-- Resim galerisi buraya gelecek -->
+            </div>
+        </div>
+    </section>
+
+    <!-- About Stats -->
+    <section class="about-stats-section">
+        <div class="container">
+            <div class="stats-simple-grid">
+                <div class="stat-simple">
+                    <div class="stat-simple-number">45+</div>
+                    <div class="stat-simple-label">ÜYE</div>
                 </div>
-                
-                <div class="content-stats">
-                    <div class="stats-container">
-                        <div class="stat-large">
-                            <div class="stat-number">2019</div>
-                            <div class="stat-label">Kuruluş Yılımız</div>
-                        </div>
-                        
-                        <div class="stat-grid">
-                            <div class="stat-item">
-                                <div class="stat-number">45+</div>
-                                <div class="stat-label">Aktif Üye</div>
-                            </div>
-                            <div class="stat-item">
-                                <div class="stat-number">3</div>
-                                <div class="stat-label">Formula Araç</div>
-                            </div>
-                            <div class="stat-item">
-                                <div class="stat-number">12</div>
-                                <div class="stat-label">Yarış Deneyimi</div>
-                            </div>
-                            <div class="stat-item">
-                                <div class="stat-number">25+</div>
-                                <div class="stat-label">Sponsor Firma</div>
-                            </div>
-                        </div>
-                    </div>
+                <div class="stat-simple">
+                    <div class="stat-simple-number">2019</div>
+                    <div class="stat-simple-label">KURULUŞ YILI</div>
+                </div>
+                <div class="stat-simple">
+                    <div class="stat-simple-number">7</div>
+                    <div class="stat-simple-label">EKİP SAYISI</div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- History Section -->
-    <section class="history-section">
+    <!-- About Tabs -->
+    <section class="about-tabs-section">
         <div class="container">
-            <h2 class="section-title">Tarihçemiz</h2>
-            <div class="timeline">
-                <div class="timeline-item">
-                    <div class="timeline-year">2019</div>
-                    <div class="timeline-content">
-                        <h3>Kuruluş</h3>
-                        <p>Düzce Üniversitesi Motor Sporları topluluğu, otomotiv mühendisliği öğrencilerinin öncülüğünde kuruldu.</p>
-                    </div>
+            <div class="about-tabs">
+                <button class="about-tab active" data-tab="who">BİZ KİMİZ</button>
+                <button class="about-tab" data-tab="what">NE YAPIYORUZ</button>
+                <button class="about-tab" data-tab="ethos">DEĞERLERIMIZ</button>
+                <button class="about-tab" data-tab="legacy">MİRASIMIZ</button>
+            </div>
+            
+            <div class="about-tab-content active" id="who">
+                <div class="tab-content-text">
+                    <p>Düzce Üniversitesi Motor Sporları, her yıl elektrikli Formula One tarzı bir yarış arabası tasarlayan, üreten ve yarışlarda kullanan öğrenci liderliğindeki bir takımdır.</p>
+                    <p>Üyelerimiz genellikle tatiller ve okul tatillerinde dahil olmak üzere tam zamanlı eğitimlerinin yanı sıra haftada 20 saatten fazla zaman ayırırlar.</p>
+                    <p>Takımımız, mühendislik, tasarım ve iş geliştirmeden, pazarlama ve etkinlik yönetimine kadar her şeyle ilgilenen çok çeşitli yetenekli öğrencilerden oluşmaktadır.</p>
                 </div>
-                
-                <div class="timeline-item">
-                    <div class="timeline-year">2020</div>
-                    <div class="timeline-content">
-                        <h3>İlk Proje</h3>
-                        <p>Elektrikli go-kart projemizi tamamladık ve kampüs içinde test sürüşleri gerçekleştirdik.</p>
-                    </div>
+            </div>
+            
+            <div class="about-tab-content" id="what">
+                <div class="tab-content-text">
+                    <p>Her yıl sıfırdan tamamen yeni bir Formula Student arabası tasarlıyor ve üretiyoruz. Bu, aerodinamik, şasi, güç aktarma organları, süspansiyon ve elektrik sistemlerinin eksiksiz tasarımını içerir.</p>
+                    <p>Ulusal ve uluslararası Formula Student yarışlarına katılarak tasarım sunumları, maliyet analizi, iş planlaması ve tabii ki dinamik sürüş etkinliklerinde yarışıyoruz.</p>
+                    <p>Yılda 300+ saatlik atölye çalışması, simülasyonlar ve testlerle mühendislik becerilerini gerçek dünya projelerinde geliştiriyoruz.</p>
                 </div>
-                
-                <div class="timeline-item">
-                    <div class="timeline-year">2022</div>
-                    <div class="timeline-content">
-                        <h3>Formula Student'a Katılım</h3>
-                        <p>İlk Formula Student aracımızı tasarlayıp üreterek Formula Student Turkey yarışlarına katıldık.</p>
-                    </div>
+            </div>
+            
+            <div class="about-tab-content" id="ethos">
+                <div class="tab-content-text">
+                    <p><strong>Mükemmelliyet:</strong> Her projede en iyiyi hedefliyor, detaylara önem veriyor ve sürekli kendimizi geliştiriyoruz.</p>
+                    <p><strong>İnovasyon:</strong> Yeni teknolojileri araştırıp uygulayarak otomotiv endüstrisinin geleceğini şekillendiriyoruz.</p>
+                    <p><strong>Takım Çalışması:</strong> Farklı disiplinlerden gelen öğrenciler olarak birlikte çalışarak daha güçlü sonuçlar elde ediyoruz.</p>
+                    <p><strong>Sürdürülebilirlik:</strong> Elektrikli araç teknolojileriyle çevre dostu çözümler geliştiriyoruz.</p>
+                    <p><strong>Öğrenme:</strong> Sürekli gelişim ve öğrenmeyi teşvik ediyor, hatalardan ders çıkarıyoruz.</p>
                 </div>
-                
-                <div class="timeline-item">
-                    <div class="timeline-year">2024</div>
-                    <div class="timeline-content">
-                        <h3>Uluslararası Başarı</h3>
-                        <p>Formula Student Germany yarışlarında Türkiye'yi temsil ettik ve Top 50'de yer aldık.</p>
-                    </div>
-                </div>
-                
-                <div class="timeline-item">
-                    <div class="timeline-year">2025</div>
-                    <div class="timeline-content">
-                        <h3>Model Yıl 25</h3>
-                        <p>En gelişmiş aracımız Model Yıl 25'i tasarlayıp üreterek yeni hedeflere koşuyoruz.</p>
-                    </div>
+            </div>
+            
+            <div class="about-tab-content" id="legacy">
+                <div class="tab-content-text">
+                    <p><strong>2019:</strong> Düzce Üniversitesi Motor Sporları topluluğu kuruldu. İlk projemiz olarak elektrikli go-kart çalışmalarına başladık.</p>
+                    <p><strong>2020-2021:</strong> Elektrikli go-kart projemizi tamamladık ve kampüs içinde test sürüşleri gerçekleştirdik. Formula Student için hazırlıklara başladık.</p>
+                    <p><strong>2022:</strong> İlk Formula Student aracımızı tasarlayıp üreterek Formula Student Turkey yarışlarına katıldık.</p>
+                    <p><strong>2023-2024:</strong> Aracımızı geliştirerek Formula Student Germany yarışlarında Türkiye'yi temsil ettik ve Top 50'de yer aldık.</p>
+                    <p><strong>2025:</strong> En gelişmiş aracımız Model Yıl 25 ile yeni rekorlar hedefliyoruz ve genç mühendislere ilham vermeye devam ediyoruz.</p>
                 </div>
             </div>
         </div>
@@ -144,7 +128,7 @@
     <footer class="footer">
         <div class="container">
             <div class="footer-content">
-                <h3 class="footer-title">DU MOTORSPORTS</h3>
+                <h3 class="footer-title">DU RACING</h3>
                 <div class="footer-address">
                     DÜZCE ÜNİVERSİTESİ, MERKEZ KAMPÜS, 81620 DÜZCE
                 </div>
@@ -164,14 +148,17 @@
         <!-- Enhanced Footer Marquee -->
         <div class="footer-marquee-enhanced">
             <div class="footer-marquee-content">
-                <span>DU RACING MOTORSPORTS</span>
-                <span>DU RACING MOTORSPORTS</span>
-                <span>DU RACING MOTORSPORTS</span>
-                <span>DU RACING MOTORSPORTS</span>
-                <span>DU RACING MOTORSPORTS</span>
-                <span>DU RACING MOTORSPORTS</span>
-                <span>DU RACING MOTORSPORTS</span>
-                <span>DU RACING MOTORSPORTS</span>
+                <span>DU RACING</span>
+                <span>DU RACING</span>
+                <span>DU RACING</span>
+                <span>DU RACING</span>
+                <span>DU RACING</span>
+                <span>DU RACING</span>
+                <span>DU RACING</span>
+                <span>DU RACING</span>
+                <span>DU RACING</span>
+                <span>DU RACING</span>
+                <span>DU RACING</span>
             </div>
         </div>
     </footer>
