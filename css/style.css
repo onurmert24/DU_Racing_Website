@@ -1352,15 +1352,25 @@ body.menu-open {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
     gap: 60px;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .leader-card {
     display: grid;
     grid-template-columns: 150px 1fr;
     gap: 30px;
-    background: #111;
+    background: linear-gradient(135deg, #0a0a0a 0%, #111 100%);
     padding: 40px;
-    border-radius: 10px;
+    border-radius: 12px;
+    border: 1px solid #1a1a1a;
+    transition: all 0.3s ease;
+}
+
+.leader-card:hover {
+    border-color: #013A6F;
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(1, 58, 111, 0.2);
 }
 
 .leader-image img {
@@ -1369,7 +1379,7 @@ body.menu-open {
     border-radius: 50%;
     object-fit: cover;
     background: #1a1a1a;
-    border: 2px solid #222;
+    border: 3px solid #013A6F;
 }
 
 .leader-info h3 {
@@ -1377,18 +1387,21 @@ body.menu-open {
     font-weight: 700;
     color: #fff;
     margin-bottom: 10px;
+    letter-spacing: -0.5px;
 }
 
 .leader-role {
     font-size: 14px;
     font-weight: 600;
-    color: #ccc;
+    color: #013A6F;
     margin-bottom: 5px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
 }
 
 .leader-department {
-    font-size: 14px;
-    color: #ccc;
+    font-size: 13px;
+    color: #999;
     margin-bottom: 15px;
 }
 
@@ -1405,12 +1418,12 @@ body.menu-open {
 }
 
 .department {
-    margin-bottom: 80px;
+    margin-bottom: 100px;
 }
 
 .department-header {
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
 }
 
 .department-header h3 {
@@ -1418,55 +1431,76 @@ body.menu-open {
     font-weight: 700;
     color: #fff;
     margin-bottom: 15px;
+    letter-spacing: -0.5px;
 }
 
 .department-header p {
     font-size: 16px;
-    color: #ccc;
-    max-width: 600px;
+    color: #999;
+    max-width: 700px;
     margin: 0 auto;
+    line-height: 1.6;
 }
 
 .team-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 30px;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 25px;
+    max-width: 1600px;
+    margin: 0 auto;
 }
 
 .team-member {
     text-align: center;
-    background: #111;
+    background: linear-gradient(135deg, #0a0a0a 0%, #111 100%);
     padding: 30px 20px;
-    border-radius: 10px;
+    border-radius: 12px;
+    border: 1px solid #1a1a1a;
+    transition: all 0.3s ease;
+    min-height: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.team-member:hover {
+    border-color: #013A6F;
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(1, 58, 111, 0.15);
 }
 
 .team-member img {
-    width: 100px;
-    height: 100px;
+    width: 90px;
+    height: 90px;
     border-radius: 50%;
     object-fit: cover;
     background: #1a1a1a;
-    border: 2px solid #222;
-    margin-bottom: 20px;
+    border: 2px solid #013A6F;
+    margin-bottom: 15px;
 }
 
 .team-member h4 {
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 600;
     color: #fff;
     margin-bottom: 8px;
+    line-height: 1.3;
+    letter-spacing: -0.3px;
 }
 
 .member-role {
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 500;
-    color: #ccc;
+    color: #bbb;
     margin-bottom: 5px;
+    line-height: 1.4;
 }
 
 .member-dept {
-    font-size: 12px;
-    color: #999;
+    font-size: 11px;
+    color: #888;
+    letter-spacing: 0.3px;
 }
 
 .join-team {
